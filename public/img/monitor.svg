@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="823px" height="508px" viewBox="0 0 823 508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Television Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#444548" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#707070" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="592 500 223 500 254.504912 469 560.495088 469"></polygon>
+        <filter x="-1.5%" y="-11.3%" width="103.0%" height="135.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.65 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#444548" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#444548" stop-opacity="0.23" offset="49.7747927%"></stop>
+            <stop stop-color="#444548" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-5" cx="405.5" cy="479.5" rx="16.5" ry="5.5"></ellipse>
+        <polygon id="path-6" points="422 457 422 479 389 479 389 457"></polygon>
+        <path d="M0,0 L813,0 L813,457 L0,457 L0,0 Z M6,6 L6,448.964205 L804.583873,448.964205 L804.583873,6 L6,6 Z" id="path-7"></path>
+        <filter x="-1.0%" y="-1.4%" width="102.1%" height="103.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SwrveHomepage_version_8-Copy" transform="translate(-33.000000, -494.000000)">
+            <g id="Television-Copy" transform="translate(38.000000, 497.000000)">
+                <g id="TV">
+                    <g id="Rectangle-1-Copy-2">
+                        <use fill="white" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="ffffff" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Oval-1">
+                        <use fill="#444548" xlink:href="#path-5"></use>
+                        <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Rectangle-1-Copy-3">
+                        <use fill="#444548" xlink:href="#path-6"></use>
+                        <use fill="url(#linearGradient-4)" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#444548" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

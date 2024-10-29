@@ -12,6 +12,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["node", "next"],
     "plugins": [
       {
         "name": "next"
@@ -21,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/db.js", "app/api/auth/[...nextauth]/route.js", "models/User.js", "app/AuthProvider.js","lib/jwt.js", "app/api/signup/route.js", "app/layout.jsx", "app/page.tsx", "app/create-blog/page.jsx", "components/OtherBlogs.tsx", "components/FirstBlog.tsx", "app/blog/[id]/page.tsx", "app/blog/edit/[id]/page.jsx", "app/user/[id]/ProfileDetails.tsx"],
   "exclude": ["node_modules"]
 }
